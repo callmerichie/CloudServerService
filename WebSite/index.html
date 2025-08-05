@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+                <title>Login</title>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="This page contain the login interface for our Cloud Storage">
+                <link rel="stylesheet" href="style/style.css">
+        </head>
+        <body>
+            <div class="header">
+                <div class="inner-header">
+                </div>
+                <div>
+                    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                        <defs>
+                            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                        </defs>
+                        <g class="parallax">
+                            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+                <div class="container" id="container1">
+                        <img src="./img/icon.png" width="100px" height="100px" alt="Icon">
+                        <form method="post" action="./php/login.php">
+                                <h1>LOGIN</h1>
+                                <div id="form">
+                                        <input type="text" id="username" placeholder="Username" name="username" required>
+                                        <input type="password" id="password" placeholder="Password" type="password" name="password" required>
+                                        <button type="submit" id="button" name="login">SIGN IN</button>
+                                </div>
+                        </form>
+			<p class="labelPos">
+                        	<label>you Don't Have an account?  <a href="./register.html">Sign UP</a></label>
+                	</p>
+		</div>
+        </body>
+</html>
+<!--commento causale-->
